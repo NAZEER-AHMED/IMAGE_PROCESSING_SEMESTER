@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import matplotlib.pylab as plt
+#import matplotlib.pylab as plt
 def webam():
     CameraObject = cv2.VideoCapture(0)
     fps = CameraObject.get(cv2.CAP_PROP_FPS)
